@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_forms",
+  "info": {
+    "singularName": "contact-form",
+    "pluralName": "contact-forms",
+    "displayName": "Contact Forms",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Read",
+        "New message"
+      ],
+      "default": "New message"
+    },
+    "emri": {
+      "type": "string"
+    },
+    "mbiemri": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "subjekti": {
+      "type": "string"
+    },
+    "mesazhi": {
+      "type": "text"
+    }
+  }
+}

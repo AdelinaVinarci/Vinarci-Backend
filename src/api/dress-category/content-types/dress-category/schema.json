@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dress_categories",
+  "info": {
+    "singularName": "dress-category",
+    "pluralName": "dress-categories",
+    "displayName": "Dress Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "dresses": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dress.dress",
+      "mappedBy": "category"
+    },
+    "thumbnailSize": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "make_ups",
+  "info": {
+    "singularName": "make-up",
+    "pluralName": "make-ups",
+    "displayName": "Make up",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "makeupImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
